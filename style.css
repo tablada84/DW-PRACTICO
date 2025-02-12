@@ -160,7 +160,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,.7),
     rgba(118, 113, 113, 0.7)),
     url(./img/duong-ngan-qZnLJvTrIFo-unsplash.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 100px 0;
@@ -168,28 +168,29 @@ body{
 .servicios-content{
 text-align: center;
 }
-.servicios-group h3{
-    font-size: 16px;
+.servicios-content h2{
+    font-size: 55px;
     line-height: 70px;
     color: white;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
-.servicios-group p{
+.servicios-content p{
     font-size: 16px;
     color: rgb(229, 220, 220);
+    margin-bottom: 50px;
+    padding: 0 100px;
 }
 .servicios-group {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 9%;
+    margin-bottom: 50px;
 }
 .servicios-1{
     padding: 0 80px;
 }
 .servicios-1 img{
-    justify-content: center;
-    width: 150px;
+    width: 100px;
     margin-bottom: 15px;
 }
 .servicios-1 h3{
@@ -201,7 +202,7 @@ text-align: center;
     display: flex;
 }
 .general-1{
-    width: 50px;
+    width: 50%;
     padding: 100px 250px 100px 100px;
     background-color: white;
 }
@@ -223,7 +224,7 @@ text-align: center;
 p{
     font-size: 16px;
     color: black;
-    margin: 25px 0 45px;
+    margin: 25px 0 45px 0;
 
 }
 
@@ -342,7 +343,7 @@ form{
     width: 400px;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 8px 32px color(srgb red green blue);
+
 
 }
 
@@ -359,7 +360,7 @@ position: absolute;
 top: 50%;
 right: 15px;
 color: white;
-background: linear-gradient(135deg, rgb(158, 151, 151), rgb(78, 66, 66));
+background: linear-gradient(135deg, rgb(218, 208, 208), rgb(172, 162, 162));
 padding: 12px;
 border-radius: 50%;
 font-size: 20px;
